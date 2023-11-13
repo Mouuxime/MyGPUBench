@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My GPU Bench</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo" ><img src="logo.png" alt="Logo My GPU Benchmark" class="logo"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" target="_blank">Accueil</a></li>
+                    <li><a href="support.html" target="_blank">Support</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Plus</a></li>
+                </ul>
+            </div>
+            <img src="bouton-menu.png" alt="Menu" class="menu">
+        </nav>
+    </header>
+    <section class="liste-carte">
+        <article class="carte">
+            <a href="gpu1.html" target="_blank"><img src="gpu1.jpg" alt="GIGABYTE Geforce RTX 4060"></a>
+            <h2>GIGABYTE Geforce RTX 4060</h2>
+            <p>GIGABYTE Geforce RTX 4060 OC 8G DLSS 3 / RAY TRACING / REFLEX / STUDIO</p>
+        </article>
+        <article class="carte">
+            <a href="gpu2.html" target="_blank"><img src="gpu2.jpg" alt="GIGABYTE Geforce RTX 4060Ti"></a>
+            <h2>GIGABYTE Geforce RTX 4060Ti</h2>
+            <p>GIGABYTE Geforce RTX 4060Ti OC 8G DLSS 3 / RAY TRACING / REFLEX / STUDIO</p>
+        </article>
+        <article class="carte">
+            <a href="gpu3.html" target="_blank"><img src="gpu3.jpg" alt="GIGABYTE Geforce RTX 4070"></a>
+            <h2>GIGABYTE Geforce RTX 4070</h2>
+            <p>GIGABYTE Geforce RTX 4070 OC 12G DLSS 3 / RAY TRACING / REFLEX / STUDIO</p>
+        </article>
+        <article class="carte">
+            <a href="gpu4.html" target="_blank"><img src="gpu4.jpg" alt="GIGABYTE Geforce RTX 4070Ti"></a>
+            <h2>GIGABYTE Geforce RTX 4070Ti</h2>
+            <p>GIGABYTE Geforce RTX 4070Ti OC 8G DLSS 3 / RAY TRACING / REFLEX / STUDIO</p>
+        </article>
+        <article class="carte">
+            <a href="gpu5.html" target="_blank"><img src="gpu5.jpg" alt="GIGABYTE Geforce RTX 4080"></a>
+            <h2>GIGABYTE Geforce RTX 4080</h2>
+            <p>GIGABYTE Geforce RTX 4080 OC 16G DLSS / RAY TRACING / REFLEX / STUDIO</p>
+        </article>
+        <article class="carte">
+            <a href="gpu6.html" target="_blank"><img src="gpu6.jpg" alt="GIGABYTE Geforce RTX 4090"></a>
+            <h2>GIGABYTE Geforce RTX 4090</h2>
+            <p>GIGABYTE Geforce RTX 4090 OC 24G DLSS / RAY TRACING / REFLEX / STUDIO</p>
+        </article>
+        <!-- Ajoutez d'autres cartes graphiques de la même manière -->
+    </section>
+    <footer>
+        <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">&copy; 2023 My GPU Bench</a></p>
+    </footer>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
